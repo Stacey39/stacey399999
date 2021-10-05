@@ -1,0 +1,40 @@
+.topbar{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    min-height: 5rem;
+    background-color: dimgrey;
+}
+.logo{
+    width: 2em;
+    height:2em;
+    background-color: tomato;
+    font-size: 20px;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    line-height: 1.6em;
+    border-radius: 2em;
+    margin-left:10px;
+}
+.company{
+    text-align: center;
+}
+.btn{
+    display:flex;
+    width: 4.2em;
+    height:4.2em;
+    flex-direction: column;
+    align-self: center;
+    opacity: 50%;
+    margin-right: 10px;
+
+}
+
+.line{
+    align-self: center;
+    background-color: grey;
+    width: 2.5em;
+    height: 2em;
+    margin: 0.5em;
+}

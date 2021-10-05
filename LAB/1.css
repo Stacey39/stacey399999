@@ -1,0 +1,30 @@
+
+.filter{
+    width: 26rem;
+    height: 10rem;
+    border: 3px solid white;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0 0 50px #ccc;
+
+}
+
+.categories{
+    display:flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+.tag{
+    list-style: none;
+    background-color:rgba(244,234,238,255);
+    border: 3px solid orangered;
+    width: 5rem;
+    height: 1.7rem;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+
